@@ -39,6 +39,7 @@ namespace Activity_8
             }
             else
             {
+                // Display results
                 lbl_Show_Fatcals.Text = FatCalories(input).ToString() + " calories from fats";
             }
         }
@@ -53,6 +54,7 @@ namespace Activity_8
             }
             else
             {
+                // Display results
                 lbl_Show_Carbcals.Text = CarbCalories(input).ToString() + " calories from carbs";
             }
         }
